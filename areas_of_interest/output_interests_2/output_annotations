@@ -1,0 +1,56 @@
+  ** NOTE: These are based on the 50% threshold images **
+ 
+ Barn:
+ --Seems to look mostly at wood-ness of barn and metal roof
+ --Looks at peak of roof (especially in img 5)
+ --Looks for general barn shape (slanted roof, flat wood sides, etc.)
+ --May also look at doorways
+ 
+ Dams:
+ --Looks at mostly falling water, mist
+ --Gets at edges of dam structure
+ --Looks at low and high part of falling water, seems to miss middle
+ --Ignores large parts of middle of structure of Dams
+ 
+ Fridge:
+ --If open, seems to pick up shelves for most part, but also hits on food inside
+ --If closed, picks up on edges of doors/drawers--largely misses middle
+ --Seems drawn to "white" areas representing shelves, "black" areas of space between
+ 
+ Gas Pump:
+ --Very clearly drawn to the price dials on the pump (digital or analog)
+ --Also picks up on the hoses around pump
+ --Seems not so much to care about shape of pump rather than standard pump features
+ 
+ Mashed Potato:
+ --Looks at edges of potato pile and the container they are in (typically a round bowl/plate)
+ --Tends to pick up areas of contrast (light/dark) within potato, iindicating a pile type setting
+ --Ignores surroundings, other foods for most part (though having excessive amounts of other food changes conf)
+ 
+ Pier:
+ --Looks clearly at boardwalk combined with supports below
+ --Gets some bits of water underneath, but does not seem to be critical factor
+ --Would struggle to recognize piers from above, or with buildings/things on them
+ 
+ Polaroid:
+ --Gets edges of the camera itself
+ --On rainbow stripe cameras, this is prominiently highlighted
+ --Seems to pick up flash bulbs on both new and old cameras
+
+ Sharpener:
+ --Pencil hole, screw holding in blade are prominent
+ --Gets general square shape of sharpener body
+ --Interestingly, would not recognize hand-crank sharpeners as well; seemed trained on twist blade sharpeners
+ 
+ Rotary Phone:
+ --Dial is most prominiently highlighted feature
+ --Edges of handset and body of phone are captured
+ --Seems most of handset is interestingly ignored
+ --Also gets coiled cable of phone
+ 
+ Watertower:
+ --Focuses on edges of head and most of support of water tower
+ --Caputures text on towers with it
+ --Also captures antennas, equipment on top of tower if it has it
+ --Would struggle with slightly varied images (like teakettle tower)
+ --Also didn't much like background in image; images chosen were clean agains plain sky

@@ -1,0 +1,131 @@
+Ambulance:
+--Seems to pick up on red color, any text
+--Lights may be factor
+--Seems like top of vehicle more important; bottom typically obsucred
+!!Common: Text, lighting, coloring (schoolbus)
+
+ATM:
+--Picks up heavily on screen and sign above ATM
+--Less needs actual body of ATM; detects standalone and in-wall
+--Seems to see screen/buttons as one unit, ignores what's around it
+!!Common: Doesn't need shape, cares about "features" of pump/atm (gaspump)
+
+Balloon:
+--Pronounced shape of balloon outline
+--Very pronounced focus on rider basket
+--Seems to only need shape of balloon with basket; coloring doesn't matter
+!!Common: Focus on edges, gets at sky (watertower)
+
+Boathouse:
+--Highlights reflection of boathouse in water
+--Focuses on front/sides of shed
+--Only depicts shed and water; ignores surrounding
+!!Common: Seems to focus on shape of building and material (barn)
+
+Bobsled:
+--Gets text on the side of sled
+--Photos less focused on object; may be less context-dependent
+--Likely trained on top-down view; this is more focused
+!!Common: ?? (train)
+
+Breakwater:
+--Picks up on whitewater around wall
+--Focuses most on boundary between water and wall
+--Seems to look at pickets of wall
+!!Common: Gets whitewater, boundary of water and wall (dam)
+
+Car:
+--Focus on sharp lines (windows, paint lines, rails)
+--Ignores text on cars
+--Picks up on rails about as much as actual car
+!!Common: Focus on windows and other sharp lines, though train more diverse (train)
+
+Cauliflower:
+--Gets edges, ignores center more
+--Looks to see white parts the most, but also picks up greens (leaves/stems)
+--Picks up on surroundings a good deal, unfocused
+!!Common: Gets edges, sees pile (mashed potato)
+
+Church:
+--Seems to pick out doors and windows most
+--Gets steeple and other high points
+--Largely looks high on church; ignores lower features
+!!Common: Gets at doorways, looks high at image, sees roofing (barn)
+
+Gar:
+--Gets sharp outline of fish, ignores middle parts
+--Very distinct cutoff; doesn't look at water so much
+--Gets fins and needle nose of fish
+!!Common: Very defined edges of object, slender object (nematode)
+
+Gibbon:
+--Picks up on tan fur and outline of body
+--Largely seems to ignore face (except maybe boundaries of face)
+--Blocks out most of surroundings if present; not contextually dependent
+!!Common: Fur coloring important, ignores parts of body entirely (colobus)
+
+Guenon:
+--Sees face more than anything
+--Seems to highlight white fur around face as well as black fur of face
+--Ignores mouth, eyes, pink fur around nose and mouth, and body/surroundings
+!!Common: High focus on face, fur color; blocks out other parts of body (colobus)
+
+Keyboard:
+--Seems to get whites (whether white keys or white lettering on black)
+--Looks to get edges/boundaries of keys; ignores top surface of each key
+--White keyboard almost inverse of black; gets more surface, less letters
+!!Common: Focus on sharp boundaries, blocks out middles (slide rule)
+
+Leaf Beetle:
+--Red body is most prominent feature; legs also vital
+--Seems to get at center of the body; anything red
+--Largely ignores surroundings, doesn't seem to need the green leaves around
+!!Common: Sees legs and rounnded body, may look at color/pattern to body (weevil)
+
+Long Horned Beetle:
+--Seems to most care about horns and legs
+--Ill-defined edge to body; doesn't seem to care much about the body of beetle
+--Doesn't particularly seem to need the green/leafy background to recog
+!!Common: Focus on legs, no need for background (weevil)
+
+Mitten:
+--Well-defined edges of mittens
+--Blotches out center of mittens themselves
+--Seems top edge of mitten is most generally well-defined
+!!Common: Well-defined edges, shape (stocking)
+
+Payphone:
+--Looks to highlight button keypad the most, coin slots also important
+--Does NOT seem to look at edges of phone; rectangular shape not important
+--Still has good recognition if physical phone not present, though highlighted if it is
+!!Common: Dial/buttons most common, phone itself is ignored! (rotary phone)
+
+Planetarium:
+--Dome is the most obvious big factor
+--Seems that it may look at vertical bars/columns on bulding; likely common design
+--Seems to also pick up people walking in/out of fron tof building
+!!Common: Gets consistend dome-like image, bars may resemble supports (watertower)
+
+Projector:
+--Seems to need the bulb-hole and the ventilation grille on the case
+--Looks for rectangular shape of actual case
+--Seems it may also get the logo of manufacturer on projector
+!!Common: Rectangular shape, not so much lens? (polaroid)
+
+Reflex Cam:
+--Looks prominently at double lenses on front of camera
+--Also looks at dial onside if present; same shape as round lenses
+--Picks up on rectangular case
+!!Common: Rectangular shape, not so much lens? (polaroid)
+
+Rule:
+--Looks for vertical lines that are edges of ruler; doesn't care about center
+--Likely wants the two parallel lines that represent top and bottom of ruler
+--May also look for text/markings on the ruler itself
+!!Common: Looks sharply at edges, ignores middle of ruler (slide rule)
+
+Sock:
+--Picks up loosely on the edges of sock
+--Picks up on stripes across socks
+--Ill-deined edges, blotches out center of socks
+!!Common: Picks up on stripes/patterns in socks, though no edges here (stocking)

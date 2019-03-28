@@ -1,0 +1,30 @@
+DataImageparts
+--------------
+
+**these based on the # of occurences of each in T5 probl list**
+--all things with at least 3 occurences if poss. (star if not)
+
+1. Barn-->Boathouse, lumbermill, church
+2. Dam-->Breakwater, pier
+3. Fridge*-->Dishwasher, grocery store, microwave, vending machine
+4. Gaspump-->Payphone, mailbox, cash machine
+5. Mashed Potato-->cauliflower, meat loaf, ice cream, dough
+6. Pier-->Steel arch bridge, suspension bridge
+7. Polaroid-->reflex camera, projector
+8. Sharpener-->Switch, rubber eraser*, cassette player*, tape player*
+9. Telephone-->payphone, iron, 
+10. Watertower-->planetarium, balloon
+
+DataImageparts1
+---------------
+
+1. Burger-->meatloaf, ice cream, bagel, hotdog
+2. Colobus-->guenon, lanugr, gibbon, siamang
+3. Jackfruit-->bolete*, brain coral*, honeycomb*, lemon
+4. Nematode-->Velvet, gar
+5. Remote*-->cell phone, space bar, joystick, radio
+6. SlideRule-->Rule, computer keyboard, 
+7. SchoolBus-->moving van, minibus, ambulance
+8. Stocking-->Sock, mitten, 
+9. Train-->Bobsled, passenger car, 
+10. Weevil-->long-horned beetle, leaf beetle, ground beetle, 

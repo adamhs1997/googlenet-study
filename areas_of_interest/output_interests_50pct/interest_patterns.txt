@@ -1,0 +1,53 @@
+ ** NOTE: These are based on the 50% threshold images **
+ 
+ Burgers:
+ --Seem to hold the rounded shape of the burger (for the most part)
+ --Bun seems to be a big factor
+ --Meat, lettuce also seem to contribute, though to lesser extent
+ 
+ Colobus:
+ --VERY focused on the face, most of the body is blacked out if considered
+ --Specifically seems to focus on white around face, most of face is blacked out
+ --Seems to define edge of face based on white ring
+ --Other white fur (on the back) seems to be picked up, not so much black fur though
+ 
+ Jackfruit:
+ --Looks at edges more than anything
+ --Seems to look for green color, as the net seems to higlight other greens around it
+ --Visually blocks out center of the fruit
+ 
+ Nematode:
+ --Defined along edges
+ --Blocks out parts of actual worm
+ --May look for curvature; can try to do other curved pictures (snake, road) to prove
+ 
+ Remote:
+ --Picks up on edges of the shape
+ --Seems to pick up on red buttons, areas of the remote
+ --May also look at blue areas of the remote, large directional arrow pad in the middle
+
+ Slide Rule:
+ --Sees edges of the rule
+ --Seems to look at slide clip in the middle
+ --Blocks out parts of ruler itself, but no real pattern to this
+ 
+ School Bus:
+ --Looks heavily at "school bus" text, lights around it
+ --Seems also to look at windows along side, but only in 2 images
+ --Seems to recognize stop sign, but also only in 2 images
+ --Looks to block out most non-yellow parts of the images
+ 
+ Stocking:
+ --Looks heavily at the edges of the stocking
+ --Picks up on white areas within the stocking
+ --Seems to also look at red of the image
+ 
+ Bullet Train:
+ --Picks up on edge, nose of train
+ --Finds some windows on the sides of the train
+ --Looks at headlight on train
+ 
+ Weevil:
+ --Seems to see rounded edge of weevil
+ --Highlights legs of weevil
+ --Blocks out parts of middle, but may actually use weevil skin pattern to identify
