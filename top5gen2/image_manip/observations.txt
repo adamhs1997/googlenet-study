@@ -1,0 +1,24 @@
+Fridge:
+CAN block out some of the parts that are ignored in the image segment files and get same if not better results
+CANNOT input the segment file as it picks up on the blockiness and looks at it as more of a crossword or maze
+Blocking with white gives higher confidences (though this may just be for fridge image where white matters)
+Seems that the images will peak in confidence after block out too much
+--Same holds for black and white, though less so for white (at least for fridge)
+Can block out main stuff, but with fridge, get much less loss if use white i/o black
+
+Sharpener:
+Black also more destructive than white in terms of confidence
+Seems it can get by without seeing screw, despite what output interests file says
+Can identify without screw or hole, but much harder
+--Oddly, black seems better; poss. because sharpener is black
+Cutting edges will throw prediction entirely
+--Oddly, white seems less intrusive, even on black sharpener
+--Blacking out main parts had better results than edges; whiting out edges was better than main parts
+
+Colobus:
+Blocking out with black around the image actually improves the confidence
+--Adding more black decreases conf
+White blocking yields same final conf for colobus output
+--Adding more white increases conf
+Blocking out eyes seems to greatly decrease the conf, esp if done with white
+Cutting white fur really decreases prob of colobus--black or white brings up other monkeys
